@@ -1,6 +1,7 @@
 ## ALOGE is not safe in signal handler
 This demostrate that logging event to logcat buffer in signal handler
 is not safe and can deadlock the process in Android.
+(This should be fixed in latest Android release)
 
 ## Usage
 
